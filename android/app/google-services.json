@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "31558183460",
+    "project_id": "googly11new",
+    "storage_bucket": "googly11new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31558183460:android:dc50b92c3b297de4f3c6b1",
+        "android_client_info": {
+          "package_name": "com.googly11.fantasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31558183460-2uutie6gcora9539jfh05pngiid0icph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googly11.fantasy",
+            "certificate_hash": "170937d76b8c43e16b2632662e276c2bbe668c56"
+          }
+        },
+        {
+          "client_id": "31558183460-c2kq8odggg5stnsi19uc9ta1iv5jbveq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googly11.fantasy",
+            "certificate_hash": "726e29cc2260227fcf5aafb98ffcbc6fecb596b7"
+          }
+        },
+        {
+          "client_id": "31558183460-s4335ng04im6q0hbi6qrg7t5kmv4g63n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3AfB_ow798JCQYArBRoV_rT9KWbh3s_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31558183460-s4335ng04im6q0hbi6qrg7t5kmv4g63n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "31558183460-c2kk4t2vs1oa6a9g6fu289g2t2p6ne6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anjay.googly11"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31558183460:android:5e80aa255a0db5e4f3c6b1",
+        "android_client_info": {
+          "package_name": "com.googly11.sport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31558183460-s4335ng04im6q0hbi6qrg7t5kmv4g63n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3AfB_ow798JCQYArBRoV_rT9KWbh3s_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31558183460-s4335ng04im6q0hbi6qrg7t5kmv4g63n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "31558183460-c2kk4t2vs1oa6a9g6fu289g2t2p6ne6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anjay.googly11"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
