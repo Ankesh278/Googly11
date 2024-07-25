@@ -3,24 +3,17 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:isolate';
 import 'dart:ui';
-import 'package:android_intent_plus/android_intent.dart';
-import 'package:android_intent_plus/flag.dart';
-import 'package:android_package_installer/android_package_installer.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
-import 'package:flutter_file_downloader/flutter_file_downloader.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:in_app_update/in_app_update.dart';
-import 'package:install_plugin/install_plugin.dart';
 import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:upgrader/upgrader.dart';
@@ -55,7 +48,6 @@ import '../Model/UserAllData/GetUserAllData.dart';
 import '../resourses/Image_Assets/image_assets.dart';
 import '../view/Add Email Address.dart';
 import '../view/Feedback_Design.dart';
-import '../view/MaintaneceScreen.dart';
 import '../view/create_your_team/create_contest.dart';
 import '../view/loginView/login_view.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -877,17 +869,17 @@ class _HomeScreenState extends State<HomeScreen>
     if (status == DownloadTaskStatus.complete) {
       final directory = await getExternalStorageDirectory();
       final filePath = '${directory?.path}/new_version.apk';
-      await InAppUpdate.performImmediateUpdate();
+      // await InAppUpdate.performImmediateUpdate();
     }
   }
 
-  Future<void> installApk(String filePath) async {
-    try {
-      await InstallPlugin.installApk(filePath, appId: 'com.googly11.fantasy');
-    } catch (e) {
-      print('Failed to install APK: $e');
-    }
-  }
+  // Future<void> installApk(String filePath) async {
+  //   try {
+  //     await InstallPlugin.installApk(filePath, appId: 'com.googly11.fantasy');
+  //   } catch (e) {
+  //     print('Failed to install APK: $e');
+  //   }
+  // }
 
   Future<void> downloadAndInstallApk(BuildContext context) async {
     final directory = await getExternalStorageDirectory();

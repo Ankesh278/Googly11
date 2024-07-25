@@ -33,10 +33,6 @@ dependencies:
   get: ^4.6.5
   pointycastle: ^3.1.1
   flutter_tts: ^4.0.2
-  android_intent_plus: ^2.0.2
-  install_plugin: ^2.0.2
-  in_app_update: ^4.2.3
-  marquee: ^2.0.0
 
   fluttertoast: ^8.2.5
   asn1lib: ^1.5.3
